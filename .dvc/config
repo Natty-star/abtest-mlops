@@ -1,4 +1,4 @@
 [core]
     remote = dvc-remote
 ['remote "dvc-remote"']
-    url = C:/Program Files/Git/Users/dvc-storage
+    url = C:/Users/dell/AppData/Local/Temp/dvc-storage
