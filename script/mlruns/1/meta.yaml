@@ -1,0 +1,4 @@
+artifact_location: file:///home/natty/Project/10%20Acadamy%20Challenges/abtest-mlops/script/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: demo

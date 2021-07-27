@@ -1,0 +1,15 @@
+artifact_uri: file:///home/natty/Project/10%20Acadamy%20Challenges/abtest-mlops/script/mlruns/1/b9dd1269ec1040ebb2e3c0171cde33aa/artifacts
+end_time: 1627198383931
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: b9dd1269ec1040ebb2e3c0171cde33aa
+run_uuid: b9dd1269ec1040ebb2e3c0171cde33aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1627198383491
+status: 3
+tags: []
+user_id: natty

@@ -5,21 +5,21 @@ import pandas as pd
 import numpy as np
 import dvc.api
 import mlflow
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 from sklearn.preprocessing import OrdinalEncoder
 from math import ceil
 from statsmodels.stats.proportion import proportions_ztest,proportion_confint
 
 path = 'data/AdSmartABdata.csv'
-repo = ' /home/Project/10 Acadamy Challenges/abtest-mlops'
-version = 'v0'
+repo = '/home/natty/Project/10 Acadamy Challenges/abtest-mlops'
+version = 'v3'
 data_url = dvc.api.get_url(
 path = path,
 repo = repo,
 rev=version
 )
 
-mlflow.set_experiment('demo ml flow')
+mlflow.set_experiment('demo')
 
 df = pd.read_csv(data_url)
 
@@ -77,4 +77,4 @@ nobs=[n_con, n_exp]
 
 z_stat,pval=proportions_ztest(successes,nobs=nobs)
 print("Z state: " + str(z_stat))
-print("p-value: " + str(pval))
+print("p-value: " + str(pval))	
