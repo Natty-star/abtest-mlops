@@ -10,7 +10,7 @@ import statsmodels.api as sm
 import pandas as pd
 
 
-data = pd.read_csv('../data/AdSmartABdata.csv')
+data = pd.read_csv('data/AdSmartABdata.csv')
 
 #Copying the data for Machine learning
 data_ML = data.copy()
@@ -26,7 +26,7 @@ data_ML.dropna(inplace=True)
 del data_ML['auction_id'], data_ML['hour'], data_ML['device_make'], data_ML['browser']
 
 # Shuffle the data
-data_ML = sklearn.utils.shuffle(data_ML)
+#data_ML = sklearn.utils.shuffle(data_ML)
 
 
 #reordering the Columns
@@ -60,7 +60,7 @@ def calculate_metrics(y_test, y_preds):
     
 
 plt.style.use('ggplot')
-%matplotlib inline
+
 
 def plot_preds(y_test, y_preds, model_name):
     N = len(y_test)
