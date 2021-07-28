@@ -10,7 +10,7 @@ import statsmodels.api as sm
 import pandas as pd
 
 
-data = pd.read_csv('../data/AdSmartABdata.csv.dvc')
+data = pd.read_csv('../data/AdSmartABdata.csv')
 
 #Copying the data for Machine learning
 data_ML = data.copy()
