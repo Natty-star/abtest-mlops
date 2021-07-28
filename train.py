@@ -26,7 +26,7 @@ data_ML.dropna(inplace=True)
 del data_ML['auction_id'], data_ML['hour'], data_ML['device_make'], data_ML['browser']
 
 # Shuffle the data
-data_ML = sklearn.utils.shuffle(data_ML)
+#data_ML = sklearn.utils.shuffle(data_ML)
 
 
 #reordering the Columns
