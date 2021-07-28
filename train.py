@@ -59,7 +59,7 @@ def calculate_metrics(y_test, y_preds):
     
 
 plt.style.use('ggplot')
-%matplotlib inline
+
 
 def plot_preds(y_test, y_preds, model_name):
     N = len(y_test)
