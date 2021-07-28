@@ -7,6 +7,7 @@ from sklearn.cluster import KMeans
 
 from sklearn.preprocessing import LabelEncoder
 import statsmodels.api as sm
+import pandas as pd
 
 
 data = pd.read_csv('../data/AdSmartABdata.csv')
